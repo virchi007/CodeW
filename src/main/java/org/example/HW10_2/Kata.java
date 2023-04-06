@@ -1,5 +1,5 @@
 package org.example.HW10_2;
-
+//https://www.codewars.com/kata/5aa736a455f906981800360d/train/java
 public class Kata {
 
     public static boolean feast(String beast, String dish) {

@@ -1,5 +1,5 @@
 package org.example.HW10_2;
-
+//https://www.codewars.com/kata/5a2be17aee1aaefe2a000151/train/java
 public class ArrayPlusArray {
     public static int arrayPlusArray(int[] arr1, int[] arr2) {
         int sum1 = 0;

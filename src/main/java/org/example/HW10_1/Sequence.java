@@ -1,5 +1,5 @@
 package org.example.HW10_1;
-
+//https://www.codewars.com/kata/5a00e05cc374cb34d100000d/train/java
 public class Sequence {
 
     public static int[] reverse(int n){
