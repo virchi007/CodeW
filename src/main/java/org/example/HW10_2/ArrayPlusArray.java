@@ -12,6 +12,7 @@ public class ArrayPlusArray {
         for (int i = 0; i < arr2.length; i++) {
             sum2 += arr2[i];
         }
+
         return sum1 + sum2;
     }
     //    #1

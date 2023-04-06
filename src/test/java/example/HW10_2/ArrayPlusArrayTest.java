@@ -2,10 +2,9 @@ package example.HW10_2;
 import org.example.HW10_2.ArrayPlusArray;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
-import org.junit.runners.JUnit4;
 
 
-public class arrayPlusArrayTest {
+public class ArrayPlusArrayTest {
     @Test
     public void sampleTests() {
         assertEquals(21, ArrayPlusArray.arrayPlusArray(new int[]{1, 2, 3}, new int[]{4, 5, 6}));
