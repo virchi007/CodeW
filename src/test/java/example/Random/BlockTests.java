@@ -1,6 +1,6 @@
-package example;
+package example.Random;
 
-import org.example.Block;
+import org.example.Random.Block;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

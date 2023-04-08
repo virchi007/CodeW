@@ -1,6 +1,6 @@
-package example;
+package example.Random;
 
-import org.example.Cube;
+import org.example.Random.Cube;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
