@@ -3,12 +3,12 @@ package org.example.Random;
 public class Block {
     int width;
     int length;
-    int hight;
+    int height;
 
     public Block(int[] sides) {
         width = sides[0];
         length = sides[1];
-        hight = sides[2];
+        height = sides[2];
     }
 
     public int getWidth() {
@@ -19,22 +19,22 @@ public class Block {
         return length;
     }
 
-    public int getHight() {
-        return hight;
+    public int getHeight() {
+        return height;
     }
 
     public Block(int width, int length, int high) {
         this.width = width;
         this.length = length;
-        this.hight = high;
+        this.height = high;
     }
 
     public int getVolume() {
-        return length * hight * width;
+        return length * height * width;
     }
 
     public int getSurfaceArea() {
-        return 2 * length * width + 2 * width * hight + 2 * length * hight;
+        return 2 * length * width + 2 * width * height + 2 * length * height;
     }
 
 }
